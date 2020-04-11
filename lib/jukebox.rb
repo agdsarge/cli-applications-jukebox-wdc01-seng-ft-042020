@@ -45,9 +45,9 @@ def run
   when "help"
     help
   when "list"
-    list(songs)
+    list(sample_songs)
   when "play"
-    play(songs)
+    play(sample_songs)
   end
 end
 end
