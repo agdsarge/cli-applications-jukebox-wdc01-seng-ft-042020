@@ -47,4 +47,5 @@ def run
     list
   when "play"
     play
+  end
 end
