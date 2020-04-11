@@ -23,6 +23,7 @@ def play(songs)
     puts "Playing #{songs[response.to_i - 1]}"
   else
     puts "Invalid input, please try again"
+  end
 end
 
 def exit_jukebox
