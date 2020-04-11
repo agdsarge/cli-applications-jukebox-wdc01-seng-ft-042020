@@ -36,7 +36,7 @@ end
 
 def run
   while true
-  puts "PLease enter a command:"
+  puts "Please enter a command:"
   cmd = gets.strip
   case cmd
   when "exit"
