@@ -41,6 +41,7 @@ def run
   case cmd
   when "exit"
     exit_jukebox
+    break
   when "help"
     help
   when "list"
