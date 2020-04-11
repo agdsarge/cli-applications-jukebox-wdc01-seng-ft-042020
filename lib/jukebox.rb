@@ -1,4 +1,7 @@
 # Add your code here
-def say_hello(name)
-  "Hi #{name}!"
+
+def help
+  puts 
 end
+
+
