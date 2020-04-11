@@ -39,5 +39,5 @@ def run
   puts "PLease enter a command:"
   cmd = gets.strip
   case cmd
-  
+    when 
 end
