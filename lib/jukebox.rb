@@ -39,5 +39,10 @@ def run
   puts "PLease enter a command:"
   cmd = gets.strip
   case cmd
-    when 
+  when "exit"
+    exit_jukebox
+  when "help"
+    help
+  when "list"
+    list
 end
