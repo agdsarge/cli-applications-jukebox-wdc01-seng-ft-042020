@@ -1,5 +1,8 @@
 # Add your code here
 
+sample_songs = ["Help", "Yesterday", "Dark Side", "Like a Rolling Stone"]
+
+
 def help
   puts "I accept the following commands:"
   puts "- help : displays this help message"
