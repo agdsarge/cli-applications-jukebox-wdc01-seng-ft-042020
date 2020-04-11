@@ -19,7 +19,7 @@ end
 
 def play(songs)
   puts "Please enter a song name or number:"
-  reponse = gets.strip
+  response = gets.strip
   if songs.include?(response)
     puts "Playing #{response}"
   elsif response.to_i > 0 and response.to_i < songs.length
