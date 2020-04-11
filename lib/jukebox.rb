@@ -17,6 +17,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   reponse = gets.strip
+  if 
 end
 
 def exit_jukebox
