@@ -10,6 +10,6 @@ end
 
 def list(songs)
   
-  songs.each_with_index {
+  songs.each_with_index {|canta, ind| puts "#{ind + 1} #{canta}
   
 end
