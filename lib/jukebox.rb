@@ -9,6 +9,10 @@ def help
 end
 
 def list(songs)
-  songs.each do |song|
-    puts ""
+  index = 0
+  while index < songs.length do
+    puts "#{index + 1}. #{songs[index]}"
+    index += 1
+  end
+  
 end
