@@ -52,4 +52,4 @@ def run(songs)
 end
 end
 
-run
+run(sample_songs)
